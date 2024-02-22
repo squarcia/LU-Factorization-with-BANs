@@ -1,0 +1,770 @@
+1)Testa la fattorizzazione e confronta il pivotting nel caso standard e non standard
+
+########### primo step non standard ###########
+////////////////./run 5////////////////
+
+ELEM: alfa^0(35 + 0eta^1 + 0eta^2)
+
+elem not zero: 7,0= alfa^0(35 + 0eta^1 + 0eta^2)
+
+7
+Akkinv: alfa^0(0.0285714 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(-15 - 1.85714eta^1 + -0eta^2)
+
+elem not zero: 1,1= alfa^0(-15 - 1.85714eta^1 + -0eta^2)
+
+1
+Akkinv: alfa^0(-0.0666667 + 0.00825397eta^1 - 0.00102192eta^2)
+
+ELEM: alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 2,2= alfa^0(1 + 0eta^1 + 0eta^2)
+
+2
+Akkinv: alfa^0(1 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 3,3= alfa^0(1 + 0eta^1 + 0eta^2)
+
+3
+Akkinv: alfa^0(1 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 4,4= alfa^0(1 + 0eta^1 + 0eta^2)
+
+4
+Akkinv: alfa^0(1 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 5,5= alfa^0(1 + 0eta^1 + 0eta^2)
+
+5
+Akkinv: alfa^0(1 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 6,6= alfa^0(1 + 0eta^1 + 0eta^2)
+
+6
+Akkinv: alfa^0(1 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(0.0857143 - 0.00870748eta^1 + 0.00107807eta^2)
+
+elem not zero: 8,7= alfa^0(0.0857143 - 0.00870748eta^1 + 0.00107807eta^2)
+
+8
+Akkinv: alfa^0(11.6667 + 1.18519eta^1 - 0.0263374eta^2)
+
+ELEM: alfa^0(-0.333333 - 0.0338624eta^1 + 0.000752499eta^2)
+
+elem not zero: 8,8= alfa^0(-0.333333 - 0.0338624eta^1 + 0.000752499eta^2)
+
+8
+Akkinv: alfa^0(-3 + 0.304762eta^1 - 0.0377324eta^2)
+
+LU(0,0): alfa^0(35 + 0eta^1 + 0eta^2)
+LU(0,1): alfa^0(35 - 2eta^1 + -0eta^2)
+LU(0,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(0,3): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(0,4): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(0,5): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(0,6): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(0,7): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(0,8): alfa^0(0 + 0eta^1 + 0eta^2)
+
+LU(1,0): alfa^0(-0.428571 + 0eta^1 + 0eta^2)
+LU(1,1): alfa^0(-15 - 1.85714eta^1 + -0eta^2)
+LU(1,2): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(1,3): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(1,4): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(1,5): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(1,6): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(1,7): alfa^0(0.428571 + -0eta^1 + -0eta^2)
+LU(1,8): alfa^0(-0 + -0eta^1 + -0eta^2)
+
+LU(2,0): alfa^0(0.0285714 + 0eta^1 + 0eta^2)
+LU(2,1): alfa^0(0.133333 - 0.0203175eta^1 + 0.0025155eta^2)
+LU(2,2): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(2,3): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(2,4): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(2,5): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(2,6): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(2,7): alfa^0(-0.0857143 + 0.00870748eta^1 - 0.00107807eta^2)
+LU(2,8): alfa^0(-0 + -0eta^1 + -0eta^2)
+
+LU(3,0): alfa^0(0.857143 - 0.0285714eta^1 + 0eta^2)
+LU(3,1): alfa^0(1 - 0.304762eta^1 + 0.041542eta^2)
+LU(3,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(3,3): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(3,4): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(3,5): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(3,6): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(3,7): alfa^0(-1.28571 + 0.159184eta^1 - 0.0178037eta^2)
+LU(3,8): alfa^0(-0 + -0eta^1 + -0eta^2)
+
+LU(4,0): alfa^0(0.0285714 + 0eta^1 + 0eta^2)
+LU(4,1): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(4,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(4,3): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(4,4): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(4,5): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(4,6): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(4,7): alfa^0(-0.0285714 + -0eta^1 + -0eta^2)
+LU(4,8): alfa^0(-0 + -0eta^1 + -0eta^2)
+
+LU(5,0): alfa^0(0.142857 - 0.0571429eta^1 + 0eta^2)
+LU(5,1): alfa^0(-0.333333 + 0.0222222eta^1 + 0.00486772eta^2)
+LU(5,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(5,3): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(5,4): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(5,5): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(5,6): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(5,7): alfa^0(1.35525e-020 + 0.047619eta^1 - 0.00208617eta^2)
+LU(5,8): alfa^0(-0 + -0eta^1 + -0eta^2)
+
+LU(6,0): alfa^0(0.0285714 + 0eta^1 + 0eta^2)
+LU(6,1): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(6,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(6,3): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(6,4): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(6,5): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(6,6): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(6,7): alfa^0(-0.0285714 + -0eta^1 + -0eta^2)
+LU(6,8): alfa^0(-0 + -0eta^1 + -0eta^2)
+
+LU(7,0): alfa^0(-0.0285714 + 0eta^1 + 0eta^2)
+LU(7,1): alfa^0(-0.133333 + 0.0203175eta^1 - 0.0025155eta^2)
+LU(7,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(7,3): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(7,4): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(7,5): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(7,6): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(7,7): alfa^0(0.0857143 - 0.00870748eta^1 + 0.00107807eta^2)
+LU(7,8): alfa^0(1 + 0eta^1 + 0eta^2)
+
+LU(8,0): alfa^0(-0.0285714 + 0eta^1 + 0eta^2)
+LU(8,1): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(8,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(8,3): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(8,4): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(8,5): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(8,6): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(8,7): alfa^0(0.333333 + 0.0338624eta^1 - 0.000752499eta^2)
+LU(8,8): alfa^0(-0.333333 - 0.0338624eta^1 + 0.000752499eta^2)
+
+
+Numero di condizionamento: 60802
+pivot: 7 1 2 3 4 5 6 8 0
+
+x: alfa^-2(-1.28163 + 0eta^1 + 0eta^2)
+ alfa^0(30 - 6.71429eta^1 + 0.897959eta^2)
+ alfa^0(90 - 15.1429eta^1 + 2.17959eta^2)
+ alfa^0(1350 - 227.143eta^1 + 31.4082eta^2)
+ alfa^0(45 + 1.0842e-019eta^1 - 5.42101e-020eta^2)
+ alfa^0(225 - 60eta^1 + 0.857143eta^2)
+ alfa^0(40 - 2eta^1 - 5.42101e-020eta^2)
+ alfa^0(1400 - 70eta^1 - 2eta^2)
+ alfa^0(40 + 15.1429eta^1 - 2.17959eta^2)
+
+x_transpose: alfa^0(6.77626e-021 - 4.06576e-020eta^1 + 3.38813e-021eta^2)
+ alfa^0(-0.266667 + 0.269206eta^1 - 0.0866636eta^2)
+ alfa^0(-0 + -0eta^1 + -0eta^2)
+ alfa^0(-0 + -0eta^1 + -0eta^2)
+ alfa^0(-0 + -0eta^1 + -0eta^2)
+ alfa^0(-0 + -0eta^1 + -0eta^2)
+ alfa^0(-0 + -0eta^1 + -0eta^2)
+ alfa^-2(-1.35525e-020 + 0eta^1 + 0eta^2)
+ alfa^0(-4 - 18.0381eta^1 + 1.29995eta^2)
+
+########### primo step standard ###########
+////////////////./run 7////////////////
+
+ELEM: alfa^0(35 + 0eta^1 + 0eta^2)
+
+elem not zero: 7,0= alfa^0(35 + 0eta^1 + 0eta^2)
+
+7
+Akkinv: alfa^0(0.0285714 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(-15 + 0eta^1 + 0eta^2)
+
+elem not zero: 1,1= alfa^0(-15 + 0eta^1 + 0eta^2)
+
+1
+Akkinv: alfa^0(-0.0666667 + -0eta^1 + -0eta^2)
+
+ELEM: alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 2,2= alfa^0(1 + 0eta^1 + 0eta^2)
+
+2
+Akkinv: alfa^0(1 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 3,3= alfa^0(1 + 0eta^1 + 0eta^2)
+
+3
+Akkinv: alfa^0(1 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 4,4= alfa^0(1 + 0eta^1 + 0eta^2)
+
+4
+Akkinv: alfa^0(1 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 5,5= alfa^0(1 + 0eta^1 + 0eta^2)
+
+5
+Akkinv: alfa^0(1 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 6,6= alfa^0(1 + 0eta^1 + 0eta^2)
+
+6
+Akkinv: alfa^0(1 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(0.0857143 + -0eta^1 + -0eta^2)
+
+elem not zero: 8,7= alfa^0(0.0857143 + -0eta^1 + -0eta^2)
+
+8
+Akkinv: alfa^0(11.6667 + 0eta^1 + 0eta^2)
+
+ELEM: alfa^0(-0.333333 + -0eta^1 + -0eta^2)
+
+elem not zero: 8,8= alfa^0(-0.333333 + -0eta^1 + -0eta^2)
+
+8
+Akkinv: alfa^0(-3 + -0eta^1 + -0eta^2)
+
+LU(0,0): alfa^0(35 + 0eta^1 + 0eta^2)
+LU(0,1): alfa^0(35 + 0eta^1 + 0eta^2)
+LU(0,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(0,3): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(0,4): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(0,5): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(0,6): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(0,7): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(0,8): alfa^0(0 + 0eta^1 + 0eta^2)
+
+LU(1,0): alfa^0(-0.428571 + 0eta^1 + 0eta^2)
+LU(1,1): alfa^0(-15 + 0eta^1 + 0eta^2)
+LU(1,2): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(1,3): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(1,4): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(1,5): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(1,6): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(1,7): alfa^0(0.428571 + -0eta^1 + -0eta^2)
+LU(1,8): alfa^0(-0 + -0eta^1 + -0eta^2)
+
+LU(2,0): alfa^0(0.0285714 + 0eta^1 + 0eta^2)
+LU(2,1): alfa^0(0.133333 + 0eta^1 + 0eta^2)
+LU(2,2): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(2,3): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(2,4): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(2,5): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(2,6): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(2,7): alfa^0(-0.0857143 + -0eta^1 + -0eta^2)
+LU(2,8): alfa^0(-0 + -0eta^1 + -0eta^2)
+
+LU(3,0): alfa^0(0.857143 + 0eta^1 + 0eta^2)
+LU(3,1): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(3,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(3,3): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(3,4): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(3,5): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(3,6): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(3,7): alfa^0(-1.28571 + -0eta^1 + -0eta^2)
+LU(3,8): alfa^0(-0 + -0eta^1 + -0eta^2)
+
+LU(4,0): alfa^0(0.0285714 + 0eta^1 + 0eta^2)
+LU(4,1): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(4,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(4,3): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(4,4): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(4,5): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(4,6): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(4,7): alfa^0(-0.0285714 + -0eta^1 + -0eta^2)
+LU(4,8): alfa^0(-0 + -0eta^1 + -0eta^2)
+
+LU(5,0): alfa^0(0.142857 + 0eta^1 + 0eta^2)
+LU(5,1): alfa^0(-0.333333 + 0eta^1 + 0eta^2)
+LU(5,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(5,3): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(5,4): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(5,5): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(5,6): alfa^0(-0 + -0eta^1 + -0eta^2)
+LU(5,7): alfa^0(1.35525e-020 + -0eta^1 + -0eta^2)
+LU(5,8): alfa^0(-0 + -0eta^1 + -0eta^2)
+
+LU(6,0): alfa^0(0.0285714 + 0eta^1 + 0eta^2)
+LU(6,1): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(6,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(6,3): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(6,4): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(6,5): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(6,6): alfa^0(1 + 0eta^1 + 0eta^2)
+LU(6,7): alfa^0(-0.0285714 + -0eta^1 + -0eta^2)
+LU(6,8): alfa^0(-0 + -0eta^1 + -0eta^2)
+
+LU(7,0): alfa^0(-0.0285714 + 0eta^1 + 0eta^2)
+LU(7,1): alfa^0(-0.133333 + 0eta^1 + 0eta^2)
+LU(7,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(7,3): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(7,4): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(7,5): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(7,6): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(7,7): alfa^0(0.0857143 + -0eta^1 + -0eta^2)
+LU(7,8): alfa^0(1 + 0eta^1 + 0eta^2)
+
+LU(8,0): alfa^0(-0.0285714 + 0eta^1 + 0eta^2)
+LU(8,1): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(8,2): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(8,3): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(8,4): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(8,5): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(8,6): alfa^0(0 + 0eta^1 + 0eta^2)
+LU(8,7): alfa^0(0.333333 + 0eta^1 + 0eta^2)
+LU(8,8): alfa^0(-0.333333 + -0eta^1 + -0eta^2)
+
+Numero di condizionamento: 60802
+pivot: 7 1 2 3 4 5 6 8 0
+
+x: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(30 + -0eta^1 + -0eta^2)
+ alfa^0(90 + 0eta^1 + 0eta^2)
+ alfa^0(1350 + 0eta^1 + 0eta^2)
+ alfa^0(45 + 0eta^1 + 0eta^2)
+ alfa^0(225 + 0eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(1400 + 0eta^1 + 0eta^2)
+ alfa^0(40 + -0eta^1 + -0eta^2)
+
+x_transpose: alfa^0(6.77626e-021 + 2.71051e-020eta^1 + 0eta^2)
+ alfa^0(-0.266667 + 0.266667eta^1 + -0eta^2)
+ alfa^0(-0 + -0eta^1 + -0eta^2)
+ alfa^0(-0 + -0eta^1 + -0eta^2)
+ alfa^0(-0 + -0eta^1 + -0eta^2)
+ alfa^0(-0 + -0eta^1 + -0eta^2)
+ alfa^0(-0 + -0eta^1 + -0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(-4 - 18eta^1 + -0eta^2)
+
+2)Soluzione di base è la stessa per due step di fila
+
+////////////////./run 7////////////////
+B: 0 1 4 5 6 7 8 9 10
+
+N: 2 3
+
+elem not zero: 7,0= alfa^0(35 + 0eta^1 + 0eta^2)
+
+elem not zero: 1,1= alfa^0(-15 + 0eta^1 + 0eta^2)
+
+elem not zero: 2,2= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 3,3= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 4,4= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 5,5= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 6,6= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 8,7= alfa^0(0.0857143 + -0eta^1 + -0eta^2)
+
+elem not zero: 8,8= alfa^0(-0.333333 + 0eta^1 + 0eta^2)
+
+pivot: 7 1 2 3 4 5 6 8 0
+
+x: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(30 + -0eta^1 + -0eta^2)
+ alfa^0(90 + 0eta^1 + 0eta^2)
+ alfa^0(1350 + 0eta^1 + 0eta^2)
+ alfa^0(45 + 0eta^1 + 0eta^2)
+ alfa^0(225 + 0eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(1400 + 0eta^1 + 0eta^2)
+ alfa^0(40 + -0eta^1 + -0eta^2)
+
+
+xB: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(90 + 0eta^1 + 0eta^2)
+ alfa^0(1350 + 0eta^1 + 0eta^2)
+ alfa^0(45 + 0eta^1 + 0eta^2)
+ alfa^0(225 + 0eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(1400 + 0eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+
+
+################################################################STEP 1################################################################
+
+x_transpose: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(-0.266667 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(-4 + 0eta^1 + 0eta^2)
+
+
+sN: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0.266667 + 0eta^1 + 0eta^2)
+
+
+k: 1
+Find d
+x: alfa^0(0.0666667 + 0eta^1 + 0eta^2)
+ alfa^0(-0.0666667 + -0eta^1 + -0eta^2)
+ alfa^0(-0.133333 + 0eta^1 + 0eta^2)
+ alfa^0(-1 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0.333333 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0.133333 + -0eta^1 + -0eta^2)
+
+
+quality: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(675 + 0eta^1 + 0eta^2)
+ alfa^0(300 + 0eta^1 + 0eta^2)
+
+
+zz: 0 5 8
+
+Update base
+B: 3 1 4 5 6 7 8 9 10
+
+N: 2 0
+
+Find new base solution
+elem not zero: 1,0= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 7,1= alfa^0(35 + 0eta^1 + 0eta^2)
+
+elem not zero: 2,2= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 3,3= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 4,4= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 5,5= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 6,6= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 7,7= alfa^0(0.0285714 + -0eta^1 + -0eta^2)
+
+elem not zero: 8,8= alfa^0(1 + 0eta^1 + 0eta^2)
+
+pivot: 1 7 2 3 4 5 6 0 8
+
+x: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(90 + 0eta^1 + 0eta^2)
+ alfa^0(1350 + 0eta^1 + 0eta^2)
+ alfa^0(45 + 0eta^1 + 0eta^2)
+ alfa^0(225 + 0eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(1400 + 0eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+
+
+xB: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(90 + 0eta^1 + 0eta^2)
+ alfa^0(1350 + 0eta^1 + 0eta^2)
+ alfa^0(45 + 0eta^1 + 0eta^2)
+ alfa^0(225 + 0eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(1400 + 0eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+
+
+################################################################STEP 2################################################################
+
+x_transpose: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(-12 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+
+
+sN: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(8 + 0eta^1 + 0eta^2)
+
+
+k: 1
+Find d
+x: alfa^0(15 + 0eta^1 + 0eta^2)
+ alfa^0(1 + 0eta^1 + 0eta^2)
+ alfa^0(2 + 0eta^1 + 0eta^2)
+ alfa^0(15 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(-5 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(-2 + 0eta^1 + 0eta^2)
+
+
+quality: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(45 + 0eta^1 + 0eta^2)
+ alfa^0(90 + 0eta^1 + 0eta^2)
+
+
+zz: 0 1 2 3
+
+Update base
+B: 0 1 4 5 6 7 8 9 10
+
+N: 2 3
+
+Find new base solution
+elem not zero: 7,0= alfa^0(35 + 0eta^1 + 0eta^2)
+
+elem not zero: 1,1= alfa^0(-15 + 0eta^1 + 0eta^2)
+
+elem not zero: 2,2= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 3,3= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 4,4= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 5,5= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 6,6= alfa^0(1 + 0eta^1 + 0eta^2)
+
+elem not zero: 8,7= alfa^0(0.0857143 + -0eta^1 + -0eta^2)
+
+elem not zero: 8,8= alfa^0(-0.333333 + 0eta^1 + 0eta^2)
+
+pivot: 7 1 2 3 4 5 6 8 0
+
+x: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(30 + -0eta^1 + -0eta^2)
+ alfa^0(90 + 0eta^1 + 0eta^2)
+ alfa^0(1350 + 0eta^1 + 0eta^2)
+ alfa^0(45 + 0eta^1 + 0eta^2)
+ alfa^0(225 + 0eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(1400 + 0eta^1 + 0eta^2)
+ alfa^0(40 + -0eta^1 + -0eta^2)
+
+
+xB: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(90 + 0eta^1 + 0eta^2)
+ alfa^0(1350 + 0eta^1 + 0eta^2)
+ alfa^0(45 + 0eta^1 + 0eta^2)
+ alfa^0(225 + 0eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(1400 + 0eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+
+3)Errore nel confronto fra ban, porta ad un cambio di base sbagliato
+
+///////////////./run 6///////////////////
+b is positive
+c is finite
+B: 2 3 4 5 6 7 8 9 10
+
+N: 0 1 11 12 
+
+pivot: 0 1 2 3 4 5 6 7 8
+
+x: alfa^0(60 + 0eta^1 + 0eta^2)
+ alfa^0(1800 - 75eta^1 - 2eta^2)
+ alfa^0(75 + 0eta^1 + 0eta^2)
+ alfa^0(525 - 145eta^1 + 0eta^2)
+ alfa^0(70 + 0eta^1 + 0eta^2)
+ alfa^0(2450 - 70eta^1 - 2eta^2)
+ alfa^0(70 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(900 - 45eta^1 + 1eta^2)
+
+
+xB: alfa^0(60 + 0eta^1 + 0eta^2)
+ alfa^0(1800 - 75eta^1 - 2eta^2)
+ alfa^0(75 + 0eta^1 + 0eta^2)
+ alfa^0(525 - 145eta^1 + 0eta^2)
+ alfa^0(70 + 0eta^1 + 0eta^2)
+ alfa^0(2450 - 70eta^1 - 2eta^2)
+ alfa^0(70 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(900 - 45eta^1 + 1eta^2)
+
+
+################################################################STEP 1################################################################
+
+x_transpose: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^1(-1 + 0eta^1 + 0eta^2)
+ alfa^1(-1 + 0eta^1 + 0eta^2)
+
+
+sN: alfa^1(16 + 0eta^1 + 0eta^2)
+ alfa^1(31 + 1eta^1 + 0eta^2)
+ alfa^1(-1 + 0eta^1 + 0eta^2)
+ alfa^1(-1 + 0eta^1 + 0eta^2)
+
+
+k: 0
+Find d
+x: alfa^0(1 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 1eta^1 + 0eta^2)
+ alfa^0(1 + 0eta^1 + 0eta^2)
+ alfa^0(5 - 2eta^1 + 0eta^2)
+ alfa^0(1 + 0eta^1 + 0eta^2)
+ alfa^0(35 + 0eta^1 + 0eta^2)
+ alfa^0(-1 + 0eta^1 + 0eta^2)
+ alfa^0(1 + 0eta^1 + 0eta^2)
+ alfa^0(15 + 0eta^1 + 0eta^2)
+
+
+quality: alfa^0(60 + 0eta^1 + 0eta^2)
+ alfa^0(60 - 4.5eta^1 + 0.0833333eta^2)
+ alfa^0(75 + 0eta^1 + 0eta^2)
+ alfa^0(105 + 13eta^1 + 5.2eta^2)
+ alfa^0(70 + 0eta^1 + 0eta^2)
+ alfa^0(70 - 2eta^1 - 0.0571429eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(60 - 3eta^1 + 0.0666667eta^2)
+
+
+60, 60
+60, 75
+60<75
+60, 105
+60<105
+60, 70
+60<70
+60, 70
+60<70
+60, 30
+30, 60
+30<60
+zz: 0 1 2 3 4 5 7 8
+
+Update base
+B: 2 3 4 5 6 7 8 0 10
+
+N: 9 1 11 12
+
+Find new base solution
+pivot: 0 1 2 3 4 5 6 8 7
+
+x: alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(900 - 105eta^1 - 2eta^2)
+ alfa^0(45 + 0eta^1 + 0eta^2)
+ alfa^0(375 - 85eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(1400 - 70eta^1 - 2eta^2)
+ alfa^0(100 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(450 - 45eta^1 + 1eta^2)
+
+
+xB: alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(900 - 105eta^1 - 2eta^2)
+ alfa^0(45 + 0eta^1 + 0eta^2)
+ alfa^0(375 - 85eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(1400 - 70eta^1 - 2eta^2)
+ alfa^0(100 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(450 - 45eta^1 + 1eta^2)
+
+################################################################STEP 2################################################################
+
+x_transpose: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^1(-1 + 0eta^1 + 0eta^2)
+ alfa^1(15 + 0eta^1 + 0eta^2)
+
+
+sN: alfa^0(0 + 0eta^1 + 0eta^2)
+ alfa^1(31 + 1eta^1 + 0eta^2)
+ alfa^1(-1 + 0eta^1 + 0eta^2)
+ alfa^1(-1 + 0eta^1 + 0eta^2)
+
+
+k: 1
+Find d
+x: alfa^0(-2 + 0eta^1 + 0eta^2)
+ alfa^0(-15 - 1eta^1 + 0eta^2)
+ alfa^0(-1.0842e-019 + 0eta^1 + 0eta^2)
+ alfa^0(5 + 2.1684e-019eta^1 + 0eta^2)
+ alfa^0(-1.0842e-019 + 0eta^1 + 0eta^2)
+ alfa^0(-3.46945e-018 - 2eta^1 + 0eta^2)
+ alfa^0(2 + 0eta^1 + 0eta^2)
+ alfa^0(1 + 0eta^1 + 0eta^2)
+ alfa^0(15 + 1eta^1 + -0eta^2)
+
+
+quality: alfa^0(75 - 17eta^1 + 7.37257e-019eta^2)
+ alfa^0(50 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(30 - 5eta^1 + 0.4eta^2)
+
+
+75, 50
+50, 30
+30, 30
+30<30
+zz: 3 6 7 8
+
+Update base
+B: 2 3 4 5 6 7 8 1 10
+
+N: 9 0 11 12
+
+Find new base solution
+pivot: 0 1 2 3 4 5 6 8 7
+
+x: alfa^0(90 + 0eta^1 + 0eta^2)
+ alfa^0(1350 - 75eta^1 - 2eta^2)
+ alfa^0(45 + 0eta^1 + 0eta^2)
+ alfa^0(225 - 85eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(1400 - 10eta^1 - 2eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^0(5.20417e-017 - 75eta^1 + 1eta^2)
+
+
+xB: alfa^0(90 + 0eta^1 + 0eta^2)
+ alfa^0(1350 - 75eta^1 - 2eta^2)
+ alfa^0(45 + 0eta^1 + 0eta^2)
+ alfa^0(225 - 85eta^1 + 0eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(1400 - 10eta^1 - 2eta^2)
+ alfa^0(40 + 0eta^1 + 0eta^2)
+ alfa^0(30 + 0eta^1 + 0eta^2)
+ alfa^-2(1 + 0eta^1 + 0eta^2)
